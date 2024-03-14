@@ -1,7 +1,7 @@
 vector<ll> dist(n,inf);
 dist[src] = 0;
 deque<int> q;
-
+q.push_front(src);
 while(!q.empty())
 {
     int node = q.front();
